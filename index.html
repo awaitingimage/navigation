@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="main.css" />
+  <title>Navigation</title>
+</head>
+
+<body>
+
+  <form id="form">
+    <div class="form-question">
+      <label for="start-point">Start point: </label>
+      <select id="start-point" name="start-point"> </select>
+    </div>
+    <div class="form-question">
+      <label for="end-point">End point: </label>
+      <select id="end-point" name="end-point"> </select>
+    </div>
+    <input type="submit" value="Calculate route" />
+  </form>
+
+  <p id="shortest-route"></p>
+
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+form {
+  display: table;
+}
+label,
+select,
+input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+.form-question {
+  display: table-row;
+}
